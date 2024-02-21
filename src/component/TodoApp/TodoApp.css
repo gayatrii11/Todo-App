@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: rgb(47, 148, 185);
+}
+
+.todo-container{
+    background: rgb(47, 148, 185);
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    /* left: 50%;
+    top: 50%; */
+    /* position: absolute; 
+    transform: translate(-50%,-50%);make the box at centre of page
+    text-align: center;
+ */
+}
+
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #000;
+}
+
+
+.input-section input{
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    color: rgb(12, 137, 114);
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
+
